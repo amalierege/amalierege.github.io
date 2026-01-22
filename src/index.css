@@ -1,11 +1,20 @@
+@font-face {
+  font-family: TAYBreadPan; 
+  src: url(./assets/TAYBreadPan.woff); 
+}
+
+@font-face {
+  font-family: TAYKula; 
+  src: url(./assets/TAYKula.woff); 
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: TAYBreadPan, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #4e4e4e;
+  background-color: #bfd9ff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,13 +22,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+h1 {
+  font-family: TAYBreadPan; 
+  font-size: 3rem;
 }
-a:hover {
-  color: #535bf2;
+
+.welcomeMessage {
+  font-size: 1rem;
+  line-height: 2rem; 
 }
 
 body {
@@ -30,11 +40,16 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
 }
+a:hover {
+  color: #535bf2;
+} */
 
+/* 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -65,4 +80,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
