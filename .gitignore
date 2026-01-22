@@ -8,13 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+dist
+dist-ssr
 *.local
-
-# Make this visible because we're BUILDING LOCALLY
-# and SHOWING IT on GITHUB PAGES because we have NO
-# SERVER and are HOSTING a SINGLE PAGE APPLICATION!!!
-!dist
-!dist-ssr
 
 # Editor directories and files
 .vscode/*
