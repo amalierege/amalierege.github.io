@@ -35,9 +35,27 @@ h1 {
 body {
   margin: 0;
   display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+footer {
+  padding: 2rem;
+  font-size: 0.80rem;
+}
+
+.iconAttribute {
+  font-size: 0.5rem;
+}
+
+.dangoImage {
+  height: 30px;
+  width: 30px;
 }
 
 /* a {
