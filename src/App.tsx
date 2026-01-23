@@ -24,9 +24,8 @@ function footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
+      <img className="dangoImage" src="./src/assets/images/dango.png" alt="Image of a japanese sweet Dango"/>
       <p>
-        <img className="dangoImage" src="./src/assets/dango.png" alt="Image of a japanese sweet Dango"/>
-        <br/>
         <a className="iconAttribute" href="https://www.flaticon.com/free-icons/japan" title="japan icons">Japan Icons created by Freepik - Flaticon</a>
       </p>
       <p>
